@@ -1,1 +1,2 @@
-Feurbot
+# Feurbot
+Just a useless bot
