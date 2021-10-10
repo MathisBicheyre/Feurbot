@@ -8,5 +8,4 @@ RUN npm install
 # Our precious bot
 COPY . /usr/src/bot
 # Start me!
-RUN cd main
 CMD ["node", "bot.js"]
