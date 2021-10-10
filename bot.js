@@ -15,10 +15,8 @@ client.login(process.env.DISCORD_TOKEN);
 
 // Process message
 client.on('message', message  => {
-  console.log(message.content);
 	var string = message.content.replace(/[^\w\s]/gi, '');
 	string.toLowerCase();
-  console.log(string);
 	if(string.endsWith("quoi"))
 		message.channel.send("feur");
 	else if(string.endsWith("oui"))
