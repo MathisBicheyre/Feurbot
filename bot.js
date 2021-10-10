@@ -40,7 +40,7 @@ rl.on('line', (line) => {
 // Process message
 client.on('messageCreate', message  => {
 	var string = message.content.replace(/[^\w\s]/gi, '');
-	string.toLowerCase();
+	string = string.toLowerCase();
 	pairings.every(pairing => {
     if(string.endsWith(pairing[0])){
       message.channel.send(pairing[1]);
