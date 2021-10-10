@@ -1,14 +1,14 @@
 {
-  "name": "ImposterBot",
+  "name": "FeurBot",
   "version": "1.0.0",
-  "description": "A bot to facilitate organising Among Us games",
+  "description": "C'est quoi ? Feur",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MathisBicheyre/ImposterBot.git"
+    "url": "git+https://github.com/MathisBicheyre/Feurbot.git"
   },
   "keywords": [],
   "author": "Mathis Bicheyre <mathis.bicheyre@efrei.net>",
@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/MathisBicheyre/ImposterBot#readme",
   "dependencies": {
-    "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^8.6.0",
     "fs": "0.0.1-security",
-    "nedb": "^1.8.0"
+    "node": "^16.10.0"
   }
 }
