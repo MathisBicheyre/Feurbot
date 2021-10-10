@@ -1,4 +1,4 @@
-sudo docker stop feurbot
-sudo docker rm feurbot
-sudo docker build -t my-bot .
-sudo docker run --name feurbot -d my-bot
+docker stop feurbot
+docker rm feurbot
+docker build -t my-bot .
+docker run --name feurbot -d my-bot
